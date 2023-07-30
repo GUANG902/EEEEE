@@ -1,0 +1,10 @@
+导入时间
+
+def focus_timer(持续时间):
+    print("指针时钟开始！")
+    时间.睡眠(持续时间 * 60)
+    print("时钟时钟结束！")
+
+如果 __name__ == "__main__":
+    period = int(input("请输入注意力时长（分钟）："))
+    focus_timer（持续时间）
